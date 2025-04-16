@@ -124,7 +124,7 @@ export default function Projects() {
   ]
 
   return (
-    <section id="projects" className="py-20 bg-muted/30">
+    <section id="projects" className="py-20 bg-background/70 backdrop-blur-md">
       <div className="container mx-auto px-4">
         <motion.div
           initial="hidden"

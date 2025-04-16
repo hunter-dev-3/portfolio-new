@@ -73,7 +73,7 @@ export default function Contact() {
   ]
 
   return (
-    <section id="contact" className="py-20 bg-muted/30">
+    <section id="contact" className="py-20 bg-background/70 backdrop-blur-md">
       <div className="container mx-auto px-4">
         <motion.div
           initial="hidden"

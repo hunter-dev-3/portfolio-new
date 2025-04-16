@@ -7,6 +7,7 @@ import Testimonials from "@/components/testimonials"
 import Contact from "@/components/contact"
 import Footer from "@/components/footer"
 import Navbar from "@/components/navbar"
+import BlurBackground from "@/components/blur-background"
 
 export const metadata: Metadata = {
   title: "MemoryLeaked | Portfolio",
@@ -15,9 +16,10 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background/50 relative">
+      <BlurBackground />
       <Navbar />
-      <main>
+      <main className="relative z-10">
         <Hero />
         <About />
         <TechStack />
