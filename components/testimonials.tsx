@@ -15,47 +15,38 @@ export default function Testimonials() {
   const testimonials = [
     {
       id: 1,
-      name: "Sarah Johnson",
-      position: "Product Manager at TechCorp",
+      name: "Liam D.",
+      position: "Product Manager at Koonstel",
       content:
-        "Working with MemoryLeaked was an absolute pleasure. They delivered our project on time and exceeded our expectations in terms of quality and functionality. Their attention to detail and problem-solving skills are exceptional.",
+        "Josie was a key part of our platform rebuild. His frontend and backend skills helped us launch faster, with cleaner code and better performance. He communicated clearly and always delivered on time.",
       rating: 5,
       image: "/placeholder.svg?height=100&width=100",
     },
     {
       id: 2,
-      name: "Michael Chen",
-      position: "CTO at StartupX",
+      name: "Claire T.",
+      position: "Tech Lead at Scaleway",
       content:
-        "MemoryLeaked helped us rebuild our entire platform from the ground up. Their technical expertise and ability to understand our business needs resulted in a product that has significantly improved our user engagement and conversion rates.",
+        "We hired Josie for a full-stack SaaS project, and he went above and beyond. His work with ASP.NET and Angular improved our speed and stability. He also introduced smart DevOps practices that saved us time.",
       rating: 5,
       image: "/placeholder.svg?height=100&width=100",
     },
     {
       id: 3,
-      name: "Emily Rodriguez",
-      position: "Founder of DesignHub",
+      name: "Marcus B.",
+      position: "Founder at Envelop",
       content:
-        "I was impressed by MemoryLeaked's ability to translate our design vision into a fully functional website. They were responsive, professional, and provided valuable suggestions that improved the overall user experience.",
+        "Josie handled the full development of our real-time app using React and WebSockets. The result was fast, stable, and user-friendly. He’s proactive, sharp, and easy to work with",
       rating: 4.5,
       image: "/placeholder.svg?height=100&width=100",
     },
     {
       id: 4,
-      name: "David Kim",
-      position: "Marketing Director at GrowthCo",
+      name: "Sophie R",
+      position: "CTO at Matelab Srl",
       content:
-        "MemoryLeaked developed a custom analytics dashboard for our marketing team that has transformed how we track and optimize our campaigns. Their solution was elegant, intuitive, and exactly what we needed.",
+        "Josie delivered a secure and scalable dashboard for us using NestJS and Docker. His attention to detail and efficient development style helped us meet a tight deadline with confidence.",
       rating: 5,
-      image: "/placeholder.svg?height=100&width=100",
-    },
-    {
-      id: 5,
-      name: "Lisa Patel",
-      position: "E-commerce Manager at RetailPlus",
-      content:
-        "The e-commerce platform developed by MemoryLeaked has been a game-changer for our business. It's fast, secure, and our customers love the seamless shopping experience. We've seen a 40% increase in online sales since launch.",
-      rating: 4.5,
       image: "/placeholder.svg?height=100&width=100",
     },
   ]
