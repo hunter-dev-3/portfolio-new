@@ -61,13 +61,13 @@ export default function Contact() {
     {
       icon: <Phone className="h-6 w-6 text-primary" />,
       title: "Phone",
-      value: "+44 (123) 456-7890",
-      link: "tel:+441234567890",
+      value: "+1 (703) 672-5700" ,
+      link: "tel:+17036725700",
     },
     {
       icon: <MapPin className="h-6 w-6 text-primary" />,
       title: "Location",
-      value: "Manchester, England",
+      value: "Dallas, TX",
       link: null,
     },
   ]

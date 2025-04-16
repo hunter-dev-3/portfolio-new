@@ -20,7 +20,7 @@ export default function Testimonials() {
       content:
         "Josie was a key part of our platform rebuild. His frontend and backend skills helped us launch faster, with cleaner code and better performance. He communicated clearly and always delivered on time.",
       rating: 5,
-      image: "/placeholder.svg?height=100&width=100",
+      image: "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/New-account/avatar-client/Askur-RyD2CiwaBCO79gzGqOOjMvyMV5geJn.jpeg",
     },
     {
       id: 2,
@@ -29,7 +29,7 @@ export default function Testimonials() {
       content:
         "We hired Josie for a full-stack SaaS project, and he went above and beyond. His work with ASP.NET and Angular improved our speed and stability. He also introduced smart DevOps practices that saved us time.",
       rating: 5,
-      image: "/placeholder.svg?height=100&width=100",
+      image: "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/New-account/avatar-client/Khan-pIoSGNi6BZrND70MR7mqLov7f4BpnG.png",
     },
     {
       id: 3,
@@ -38,16 +38,16 @@ export default function Testimonials() {
       content:
         "Josie handled the full development of our real-time app using React and WebSockets. The result was fast, stable, and user-friendly. He’s proactive, sharp, and easy to work with",
       rating: 4.5,
-      image: "/placeholder.svg?height=100&width=100",
+      image: "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/New-account/avatar-client/photo_2023-09-21_19-33-04-Ftq4PolX2hCXxSsZJFIfjq5mTV3wbf.jpg",
     },
     {
       id: 4,
-      name: "Sophie R",
+      name: "Martin R",
       position: "CTO at Matelab Srl",
       content:
         "Josie delivered a secure and scalable dashboard for us using NestJS and Docker. His attention to detail and efficient development style helped us meet a tight deadline with confidence.",
       rating: 5,
-      image: "/placeholder.svg?height=100&width=100",
+      image: "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/New-account/avatar-client/photo_2025-04-16_19-29-09-EUE8khNqS6WlUe0XMoEY0S4zkZACBZ.jpg",
     },
   ]
 
