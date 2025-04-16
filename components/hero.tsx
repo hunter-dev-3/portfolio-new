@@ -2,12 +2,12 @@
 
 import { useEffect, useState } from "react"
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Github, Linkedin, Twitter } from "lucide-react"
+import { ArrowRight, Github, Linkedin, Mail, Twitter } from "lucide-react"
 import { motion } from "framer-motion"
 
 export default function Hero() {
   const [text, setText] = useState("")
-  const fullText = "Software Developer"
+  const fullText = "Lead Full Stack .NET Engineer"
 
   useEffect(() => {
     let i = 0
@@ -42,7 +42,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="relative z-10 p-8 rounded-xl bg-background/30 backdrop-blur-xl shadow-xl max-w-2xl"
+            className="relative z-10 p-8 rounded-xl backdrop-blur-xl shadow-xl max-w-xl"
           >
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
               Hi, I'm <span className="text-primary">Memory</span>
@@ -69,7 +69,7 @@ export default function Hero() {
 
             <div className="flex gap-4 mt-8 justify-center">
               <Button variant="ghost" size="icon" className="rounded-full" asChild>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/hunter-dev-3" target="_blank" rel="noopener noreferrer">
                   <Github className="h-5 w-5" />
                 </a>
               </Button>
@@ -79,14 +79,14 @@ export default function Hero() {
                 </a>
               </Button>
               <Button variant="ghost" size="icon" className="rounded-full" asChild>
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                  <Twitter className="h-5 w-5" />
+                <a href="mailto:" target="_blank" rel="noopener noreferrer">
+                  <Mail className="h-5 w-5" />
                 </a>
               </Button>
             </div>
           </motion.div>
 
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
@@ -100,7 +100,7 @@ export default function Hero() {
                 className="w-full h-full object-cover"
               />
             </div>
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
 
