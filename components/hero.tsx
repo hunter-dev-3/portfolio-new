@@ -7,7 +7,7 @@ import { motion } from "framer-motion"
 
 export default function Hero() {
   const [text, setText] = useState("")
-  const fullText = "Lead Full Stack .NET Engineer"
+  const fullText = "Senior Software Engineer | Cloud Architect"
 
   useEffect(() => {
     let i = 0
@@ -42,7 +42,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="relative z-10 p-8 rounded-xl backdrop-blur-xl shadow-xl max-w-xl"
+            className="relative z-10 p-10"
           >
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
               Hi, I'm <span className="text-primary">Memory</span>
@@ -53,8 +53,7 @@ export default function Hero() {
               <span className="animate-blink">|</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-8 mx-auto">
-              I build exceptional digital experiences with clean code and modern technologies. Turning complex problems
-              into elegant solutions is what I do best.
+            I design and build scalable, high-performance systems with clean architecture and cutting-edge technologies. Transforming complex challenges into efficient, secure, and maintainable solutions is my passion.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
