@@ -39,18 +39,14 @@ export default function About() {
           >
             <h3 className="text-2xl font-bold mb-4">A Passionate Developer</h3>
             <p className="text-muted-foreground mb-6">
-              I'm a software developer with a passion for creating clean, efficient, and user-friendly applications.
-              With over 5 years of experience in the industry, I've worked on a variety of projects ranging from small
-              business websites to complex enterprise applications.
+            I live and breathe Angular and .NET – that perfect pairing that powers everything from life-saving healthcare portals to high-stakes trading platforms. There's an art to making these technologies sing together, whether it's tuning NgRx to mirror backend CQRS patterns or optimizing Angular's change detection to work seamlessly with .NET's gRPC streams. My secret? 
             </p>
             <p className="text-muted-foreground mb-6">
-              My journey in software development began when I was in college, where I discovered my love for solving
-              complex problems through code. Since then, I've been continuously learning and improving my skills to stay
-              at the forefront of technology.
+            Treating the frontend and backend as one cohesive system rather than separate pieces.
+            React and Next.js come into play when they solve specific problems better – like when I dropped Next.js ISR into an Angular enterprise app to boost their marketing site's SEO without disrupting the core product. Or when React's flexibility delivered an internal tool in half the time Angular would've taken. But make no mistake: Angular's structured approach paired with .NET's robustness remains my go-to for mission-critical applications.
             </p>
             <p className="text-muted-foreground">
-              When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or
-              sharing my knowledge through blog posts and community forums.
+            What sets me apart is knowing exactly where each framework belongs. I've architected systems where Angular drives the main application with surgical precision, React handles dynamic dashboards with effortless state management, and Next.js delivers buttery-smooth static pages – all powered by the same lean .NET API layer. No trendy framework chasing, just the right tool for each job.
             </p>
           </motion.div>
 
@@ -69,10 +65,9 @@ export default function About() {
                       <Code className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <h4 className="text-xl font-semibold mb-2">Clean Code</h4>
+                      <h4 className="text-xl font-semibold mb-2">Robust code architecture</h4>
                       <p className="text-muted-foreground">
-                        I write maintainable, scalable, and efficient code following best practices and industry
-                        standards.
+                      Designs solid, scalable, and modular code structures that support long-term growth and easy maintenance.
                       </p>
                     </div>
                   </div>
@@ -94,9 +89,9 @@ export default function About() {
                       <Lightbulb className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <h4 className="text-xl font-semibold mb-2">Problem Solver</h4>
+                      <h4 className="text-xl font-semibold mb-2">Critical thinker</h4>
                       <p className="text-muted-foreground">
-                        I enjoy tackling complex challenges and finding elegant solutions through creative thinking.
+                      Approaches problems logically and analytically, breaking them down to find the most effective and efficient solutions.
                       </p>
                     </div>
                   </div>
@@ -118,9 +113,9 @@ export default function About() {
                       <Rocket className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <h4 className="text-xl font-semibold mb-2">Fast Learner</h4>
+                      <h4 className="text-xl font-semibold mb-2">Performance-oriented development</h4>
                       <p className="text-muted-foreground">
-                        I quickly adapt to new technologies and environments, constantly expanding my skill set.
+                      Prioritizes speed and optimization, ensuring applications run smoothly even under heavy load or complex use cases.
                       </p>
                     </div>
                   </div>

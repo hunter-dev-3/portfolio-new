@@ -20,163 +20,183 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Banking System",
-      shortDescription: "A full-featured e-commerce platform with product management.",
+      title: "Axos Banking System",
+      shortDescription: "A fully digital bank offering fee-free accounts, high-yield savings, and 24/7 online access.",
       description:
-        "A full-featured e-commerce platform with product management, cart functionality, and payment processing.",
+        "A secure and scalable digital banking system offering seamless user experience, real-time transactions, and advanced account management.",
       image: "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/New-account/bank-Kp57YQH6OjyDr2LrtM6BTlE0JSL1OI.png",
-      tags: ["C++", "Qt", "SQLite", "CMake"],
+      tags: ["ASP.NET", "Angular", "PostgreSql", "AWS", "Docker"],
       features: [
-        "Inventory management system",
-        "Real-time stock tracking",
-        "Secure payment processing",
-        "Order management dashboard",
-        "Customer analytics",
+        "All-digital banking",
+        "No monthly fees or overdraft charges",
+        "Competitive interest rates",
+        "Strong security",
+        "Mobile-first experience"
       ],
       demoLink: "#",
       githubLink: "#",
       fullDescription:
-        "This e-commerce platform provides businesses with a complete solution for selling products online. Built with C++ and Qt for high performance and cross-platform compatibility. Features include a responsive design, product catalog with filtering and search capabilities, shopping cart functionality, secure checkout integration, user authentication, and an admin dashboard for managing products, orders, and customers.",
+        "Axos Banking System is a cloud-based banking platform developed using ASP.NET and Angular. It offers core banking features like account creation, fund transfers, loan management, and transaction history. The backend is powered by PostgreSQL and hosted on AWS, with Docker used for containerization and CI/CD pipeline integration. The system includes secure user authentication, role-based access control, and encryption for data privacy. Users benefit from an intuitive mobile-friendly UI, real-time balance updates, and fee-free banking options. The platform also supports high-yield savings and budgeting tools. Designed for performance, reliability, and regulatory compliance in the fintech space."
     },
     {
       id: 2,
-      title: "Task Management System",
-      shortDescription: "A collaborative task management application with real-time updates.",
-      description: "A collaborative task management application with real-time updates and team workspaces.",
-      image: "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/New-account/bank2-LIT9Z5FAfXDxocOqjwjOuHNr4LjWus.png",
-      tags: ["Java", "Spring Boot", "React", "PostgreSQL"],
+      title: "Ally Banking System",
+      shortDescription: "A modern online bank offering high-interest savings, zero fees, and smart digital tools for personal finance.",
+      description:
+        "A reliable, cloud-based banking system designed for secure money management, real-time transactions, and user-centric financial tools.",
+      image: "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/New-account/bank2-LIT9Z5FAfXDxocOqjwjOuHNr4LjWus.png", 
+      tags: ["ASP.NET", "Angular", "PostgreSql", "Azure", "Docker"],
       features: [
-        "Real-time collaboration",
-        "Task dependencies",
-        "Resource allocation",
-        "Progress tracking",
-        "Team management",
+        "Zero monthly maintenance fees",
+        "High-interest savings and CDs",
+        "ATM fee reimbursement",
+        "Smart budgeting tools",
+        "24/7 digital access and support"
       ],
       demoLink: "#",
       githubLink: "#",
       fullDescription:
-        "This task management system helps teams organize and track their work efficiently. Built with Java Spring Boot for the backend and React for the frontend, it provides robust task management capabilities. Features include task creation and assignment, due dates and reminders, progress tracking, file attachments, comments and discussions, team workspaces, and real-time updates.",
+        "Ally Banking System is a digital-first platform designed to simplify personal finance through seamless online experiences. Built with ASP.NET and Angular, it offers account management, secure transfers, savings tools, and customer support features. Hosted on Microsoft Azure with PostgreSQL for data management, and containerized using Docker for portability. It supports intelligent budgeting features like spending buckets and provides real-time balance tracking. The system is optimized for mobile use and ensures data protection with multi-factor authentication and encryption. Users benefit from fee-free banking, competitive APYs, and broad ATM access. It's a scalable, secure, and customer-focused solution tailored for modern banking needs."
     },
     {
       id: 3,
-      title: "System Resource Monitor",
-      shortDescription: "A comprehensive system monitoring tool with real-time analytics.",
-      description: "A comprehensive system monitoring tool with real-time analytics and performance tracking.",
-      image: "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/New-account/SaaS%20platform-wvDM9XNKoDR0BYDnG9AbDOKwdtNTZR.png",
-      tags: ["C++", "Python", "Qt", "Linux"],
+      title: "Toggl Track Time Tracking System",
+      shortDescription: "A time tracking tool for individuals and teams to boost productivity and manage billable hours.",
+      description:
+        "A cross-platform app offering simple time tracking, smart reports, and seamless team coordination.",
+      image: "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/New-account/SaaS%20platform-wvDM9XNKoDR0BYDnG9AbDOKwdtNTZR.png", 
+      tags: ["React", "ASP.NET", "PostgreSQL", "Docker", "Azure"],
       features: [
-        "CPU/Memory monitoring",
-        "Process management",
-        "Network analytics",
-        "Disk usage tracking",
-        "Performance alerts",
+        "One-click time tracking",
+        "Offline tracking support",
+        "Smart activity reports",
+        "Tool integrations",
+        "Multi-device access"
       ],
       demoLink: "#",
       githubLink: "#",
       fullDescription:
-        "This system resource monitor provides real-time insights into system performance. Built primarily in C++ with Python for data analysis, it offers comprehensive monitoring capabilities. The application tracks CPU usage, memory consumption, network traffic, and disk operations, providing detailed analytics and alerts for system administrators.",
+        "Toggl Track is a modern time tracking system built with React and ASP.NET, designed for professionals and remote teams. It offers one-click timers, offline tracking, and accurate activity reporting. The backend runs on PostgreSQL and is hosted on Azure with Docker for containerization. Users can track time across devices and sync data seamlessly. The platform supports integrations with productivity tools like Jira and Google Calendar. Its clean interface and multi-platform support help teams stay focused and efficient. Toggl Track simplifies time management while ensuring transparency and accountability."
     },
     {
       id: 4,
-      title: "Compiler Design Project",
-      shortDescription: "A custom programming language compiler with optimization features.",
-      description: "A custom programming language compiler with advanced optimization features.",
-      image: "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/New-account/SaaS%20platform2-2rsXhDcfJGaGA7qWD0pls6npamuwfV.png",
-      tags: ["C", "LLVM", "Assembly", "Python"],
-      features: ["Lexical analysis", "Syntax parsing", "Code optimization", "Error handling", "Assembly generation"],
+      title: "Crisp Live Chat System",
+      shortDescription: "A multichannel messaging platform offering live chat, chatbots, and CRM integration for enhanced customer engagement.",
+      description:
+        "A real-time communication tool designed to unify customer support across various channels with automation and personalization features.",
+      image: "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/New-account/SaaS%20platform2-2rsXhDcfJGaGA7qWD0pls6npamuwfV.png", // replace with the correct image if needed
+      tags: ["React", "ASP.NET", "PostgreSQL", "Docker", "Azure"],
+      features: [
+        "Live chat with shared inbox",
+        "Multichannel messaging support",
+        "Visual chatbot builder",
+        "Automated messaging campaigns",
+        "Integrated CRM capabilities"
+      ],
       demoLink: "#",
       githubLink: "#",
       fullDescription:
-        "This compiler project implements a custom programming language with modern features and optimizations. Built using C and LLVM, it includes comprehensive error handling and code optimization capabilities. The compiler performs lexical analysis, syntax parsing, semantic analysis, and generates optimized assembly code.",
+        "Crisp Live Chat System is a customer messaging platform developed using React and ASP.NET, with PostgreSQL for data management. Hosted on Azure and containerized with Docker, it ensures scalability and reliability. The system offers real-time live chat with a shared inbox, supports multiple messaging channels including email and social media, and features a visual chatbot builder for automated interactions. Automated messaging campaigns and integrated CRM capabilities enhance customer engagement and support. Designed for businesses seeking to improve customer communication and support efficiency."
     },
     {
       id: 5,
-      title: "Distributed Database System",
-      shortDescription: "A distributed database system with high availability.",
-      description: "A distributed database system with high availability and fault tolerance.",
-      image: "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/New-account/ecommerce-dk1MuZznWSmh3EvmT7PJ4dxj0B8TXD.png",
-      tags: ["C++", "Rust", "gRPC", "Redis"],
-      features: ["Data replication", "Sharding", "Fault tolerance", "Load balancing", "Transaction management"],
+      title: "Public Goods E-commerce Platform",
+      shortDescription: "An eco-friendly marketplace offering essential goods through a clean and minimalist shopping experience.",
+      description:
+        "A direct-to-consumer store focused on sustainable products, simple design, and smart subscriptions.",
+      image: "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/New-account/ecommerce-dk1MuZznWSmh3EvmT7PJ4dxj0B8TXD.png", // replace if needed
+      tags: ["React", "ASP.NET", "PostgreSQL", "Docker", "Azure"],
+      features: [
+        "Eco-friendly products",
+        "Minimalist UI",
+        "Membership pricing",
+        "Auto-ship options",
+        "Sustainable packaging"
+      ],
       demoLink: "#",
       githubLink: "#",
       fullDescription:
-        "This distributed database system provides high availability and fault tolerance for large-scale applications. Built with C++ and Rust for performance, it implements advanced features such as data replication, sharding, and automatic failover. The system includes comprehensive monitoring and management tools.",
+        "Public Goods is a sustainable e-commerce platform built with React and ASP.NET, using PostgreSQL for secure data handling. Deployed on Azure and containerized with Docker, it supports scalability and performance. The platform focuses on clean design and offers a curated range of everyday essentials. Features include subscription-based auto-shipments, member-exclusive pricing, and environmentally conscious fulfillment. It's optimized for a smooth user experience and supports green commerce with every order."
     },
     {
       id: 6,
-      title: "Neural Network Framework",
-      shortDescription: "A deep learning framework optimized for performance.",
-      description: "A deep learning framework with CUDA acceleration and optimization features.",
-      image: "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/New-account/healthcare1-XtLcjlHSebRgeOxlBIxBZc5BvoctHd.png",
-      tags: ["C++", "CUDA", "Python", "CMake"],
+      title: "NeedyMeds Assistance Platform",
+      shortDescription: "A nonprofit resource connecting individuals to programs that help reduce medication and healthcare costs.",
+      description:
+        "A centralized platform offering information on patient assistance programs, free clinics, and discount options for medical expenses.",
+      image: "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/New-account/healthcare1-XtLcjlHSebRgeOxlBIxBZc5BvoctHd.png", // replace with the correct image if needed
+      tags: ["React", "ASP.NET", "PostgreSQL", "Docker", "Azure"],
       features: [
-        "CUDA acceleration",
-        "Automatic differentiation",
-        "Model optimization",
-        "Training pipelines",
-        "Performance profiling",
+        "Patient assistance program listings",
+        "Free/low-cost clinic directory",
+        "Drug discount card access",
+        "Disease-specific resources",
+        "Educational materials and webinars"
       ],
       demoLink: "#",
       githubLink: "#",
       fullDescription:
-        "This neural network framework provides high-performance deep learning capabilities. Built primarily in C++ with CUDA acceleration, it offers comprehensive tools for building and training neural networks. Features include automatic differentiation, model optimization, and detailed performance profiling.",
+        "NeedyMeds Assistance Platform is a nonprofit initiative developed with React and ASP.NET, utilizing PostgreSQL for data management. Hosted on Azure and containerized with Docker, it ensures scalability and reliability. The platform provides comprehensive information on programs that assist individuals in affording medications and healthcare services. Features include a searchable database of patient assistance programs, a directory of free and low-cost clinics, access to a drug discount card accepted at numerous pharmacies, and educational resources to empower users in managing their healthcare expenses."
     },
     {
       id: 7,
-      title: "Neural Network Framework",
-      shortDescription: "A deep learning framework optimized for performance.",
-      description: "A deep learning framework with CUDA acceleration and optimization features.",
-      image: "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/New-account/healthcare2-iZOBoOHGUiQRK8n7t2ebsIYl7Y2BZs.png",
-      tags: ["C++", "CUDA", "Python", "CMake"],
+      title: "FreeClinics Assistance Platform",
+      shortDescription: "A nonprofit network offering free basic medical, dental, and specialty care to uninsured and underserved individuals.",
+      description:
+        "A community-driven healthcare platform providing accessible services through volunteer efforts and local partnerships.",
+      image: "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/New-account/healthcare2-iZOBoOHGUiQRK8n7t2ebsIYl7Y2BZs.png", // replace with the correct image if needed
+      tags: ["React", "ASP.NET", "PostgreSQL", "Docker", "Azure"],
       features: [
-        "CUDA acceleration",
-        "Automatic differentiation",
-        "Model optimization",
-        "Training pipelines",
-        "Performance profiling",
+        "Free basic medical care",
+        "Urgent dental services",
+        "Specialty care coordination",
+        "Insurance and Medicaid navigation",
+        "Volunteer-powered operations"
       ],
       demoLink: "#",
       githubLink: "#",
       fullDescription:
-        "This neural network framework provides high-performance deep learning capabilities. Built primarily in C++ with CUDA acceleration, it offers comprehensive tools for building and training neural networks. Features include automatic differentiation, model optimization, and detailed performance profiling.",
+        "FreeClinics Assistance Platform is a nonprofit initiative developed with React and ASP.NET, utilizing PostgreSQL for data management. Hosted on Azure and containerized with Docker, it ensures scalability and reliability. The platform offers free healthcare services, including basic medical care, urgent dental services, and specialty care coordination, to uninsured and underserved individuals. It also provides assistance with insurance and Medicaid navigation. The operations are powered by dedicated volunteers and supported through individual and corporate donations, emphasizing community involvement and support."
     },
     {
       id: 8,
-      title: "Neural Network Framework",
-      shortDescription: "A deep learning framework optimized for performance.",
-      description: "A deep learning framework with CUDA acceleration and optimization features.",
-      image: "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/New-account/travel6-mG69nj9N934zSV0qpEbPWl0d6jDuW8.png",
-      tags: ["C++", "CUDA", "Python", "CMake"],
+      title: "Momondo Travel Search Platform",
+      shortDescription: "A global travel metasearch engine for comparing flights, hotels, and car rentals across hundreds of sites.",
+      description:
+        "A free and independent platform offering transparent travel deal comparisons to inspire and assist travelers worldwide.",
+      image: "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/New-account/travel6-mG69nj9N934zSV0qpEbPWl0d6jDuW8.png", // replace with the correct image if needed
+      tags: ["React", "ASP.NET", "PostgreSQL", "Docker", "Azure"],
       features: [
-        "CUDA acceleration",
-        "Automatic differentiation",
-        "Model optimization",
-        "Training pipelines",
-        "Performance profiling",
+        "Flight, hotel, and car rental search",
+        "Price comparison across multiple providers",
+        "Flexible date search options",
+        "Vacation package deals",
+        "User-friendly interface"
       ],
       demoLink: "#",
       githubLink: "#",
       fullDescription:
-        "This neural network framework provides high-performance deep learning capabilities. Built primarily in C++ with CUDA acceleration, it offers comprehensive tools for building and training neural networks. Features include automatic differentiation, model optimization, and detailed performance profiling.",
+        "Momondo is a travel fare aggregator and metasearch engine developed with React and ASP.NET, utilizing PostgreSQL for data management. Hosted on Azure and containerized with Docker, it ensures scalability and reliability. The platform allows users to compare prices for flights, hotels, and car rentals from various providers, offering flexible date searches and vacation package deals. Its user-friendly interface and comprehensive search capabilities make it a valuable tool for travelers seeking the best deals."
     },
     {
       id: 9,
-      title: "Neural Network Framework",
-      shortDescription: "A deep learning framework optimized for performance.",
-      description: "A deep learning framework with CUDA acceleration and optimization features.",
-      image: "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/New-account/education4-U5dV9MoHrNi4TPUtBAiq7sPEc9gBMy.png",
-      tags: ["C++", "CUDA", "Python", "CMake"],
+      title: "BrainPOP Educational Platform",
+      shortDescription: "An animated learning platform offering engaging K–8 content across core subjects through videos, quizzes, and games.",
+      description:
+        "A multimedia education system designed to make complex topics accessible and fun for students, teachers, and families.",
+      image: "https://tvjrf8ogpgevtyum.public.blob.vercel-storage.com/New-account/education4-U5dV9MoHrNi4TPUtBAiq7sPEc9gBMy.png", // replace with the correct image if needed
+      tags: ["React", "ASP.NET", "PostgreSQL", "Docker", "Azure"],
       features: [
-        "CUDA acceleration",
-        "Automatic differentiation",
-        "Model optimization",
-        "Training pipelines",
-        "Performance profiling",
+        "Animated educational videos",
+        "Interactive quizzes and games",
+        "Curriculum-aligned content",
+        "Multilingual support",
+        "Teacher and parent resources"
       ],
       demoLink: "#",
       githubLink: "#",
       fullDescription:
-        "This neural network framework provides high-performance deep learning capabilities. Built primarily in C++ with CUDA acceleration, it offers comprehensive tools for building and training neural networks. Features include automatic differentiation, model optimization, and detailed performance profiling.",
+        "BrainPOP is an award-winning educational platform developed with React and ASP.NET, utilizing PostgreSQL for data management. Hosted on Azure and containerized with Docker, it ensures scalability and reliability. The platform offers animated videos, interactive quizzes, and games across subjects like science, math, English, and social studies, designed to engage students from kindergarten through 8th grade. It supports multilingual content, including Spanish and French, and provides resources for teachers and parents to enhance the learning experience. BrainPOP is widely used in schools and by homeschoolers to supplement traditional education."
     },
   ]
 
