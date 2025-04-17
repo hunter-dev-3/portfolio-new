@@ -9,6 +9,7 @@ import Footer from "@/components/footer"
 import Navbar from "@/components/navbar"
 import BlurBackground from "@/components/blur-background"
 import Experience from "@/components/experience"
+import Education from "@/components/education"
 
 export const metadata: Metadata = {
   title: "MemoryLeaked | Portfolio",
@@ -24,6 +25,7 @@ export default function Home() {
         <Hero />
         <About />
         <TechStack />
+        <Education />
         <Experience />
         <Projects />
         <Testimonials />

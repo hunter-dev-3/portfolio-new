@@ -1,9 +1,9 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
+import { Home, Code, Briefcase, GraduationCap, Book, Send, Menu, X, ChevronUp } from "lucide-react"
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -31,13 +31,13 @@ export default function Navbar() {
   }
 
   const navLinks = [
-    { name: "Home", href: "home" },
-    { name: "About", href: "about" },
-    { name: "Tech Stack", href: "tech-stack" },
-    { name: "Work Experience", href: "experience" },
-    { name: "Projects", href: "projects" },
-    { name: "Testimonials", href: "testimonials" },
-    { name: "Contact", href: "contact" },
+    { name: "Home", href: "home", icon: <Home className="h-[18px] w-[18px]" /> },
+    { name: "Skills", href: "tech-stack", icon: <Code className="h-[18px] w-[18px]" /> },
+    { name: "Experience", href: "experience", icon: <Briefcase className="h-[18px] w-[18px]" /> },
+    { name: "Projects", href: "projects", icon: <Code className="h-[18px] w-[18px] rotate-90" /> },
+    { name: "Education", href: "education", icon: <GraduationCap className="h-[18px] w-[18px]" /> },
+    { name: "Testimonials", href: "testimonials", icon: <Book className="h-[18px] w-[18px]" /> },
+    { name: "Contact", href: "contact", icon: <Send className="h-[18px] w-[18px]" /> },
   ]
 
   return (

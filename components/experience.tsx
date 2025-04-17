@@ -53,8 +53,8 @@ export default function Experience() {
     },
     {
         id: 3,
-        company: "B2B SaaS Platform",
-        position: "Square",
+        company: "Square",
+        position: "Software Engineer",
         period: "2017 – 2019",
         location: "Remote",
         description: "Contributed to the design and development of a scalable B2B SaaS platform, focusing on high performance, flexibility, and seamless integration with enterprise systems.",
@@ -72,7 +72,7 @@ export default function Experience() {
     },
     {
         id: 4,
-        company: "FinTech Solutions",
+        company: "LendingClub",
         position: ".NET Developer",
         period: "Jan 2020 – Dec 2022",
         location: "Remote",
@@ -109,7 +109,7 @@ export default function Experience() {
           <div className="w-20 h-1 bg-primary mx-auto"></div>
         </motion.div>
 
-        <div className="relative  md:ml-12">
+        <div className="relative md:ml-12">
           {/* Timeline line - make it go behind the badges */}
           <div className="absolute left-0 md:left-4 top-0 h-full w-0.5 bg-primary/60 rounded-full z-0"></div>
           {experiences.map((exp, index) => (

@@ -33,7 +33,7 @@ export default function Projects() {
         "Strong security",
         "Mobile-first experience"
       ],
-      demoLink: "#",
+      demoLink: "https://www.axosbank.com/",
       githubLink: "#",
       fullDescription:
         "Axos Banking System is a cloud-based banking platform developed using ASP.NET and Angular. It offers core banking features like account creation, fund transfers, loan management, and transaction history. The backend is powered by PostgreSQL and hosted on AWS, with Docker used for containerization and CI/CD pipeline integration. The system includes secure user authentication, role-based access control, and encryption for data privacy. Users benefit from an intuitive mobile-friendly UI, real-time balance updates, and fee-free banking options. The platform also supports high-yield savings and budgeting tools. Designed for performance, reliability, and regulatory compliance in the fintech space."
@@ -53,7 +53,7 @@ export default function Projects() {
         "Smart budgeting tools",
         "24/7 digital access and support"
       ],
-      demoLink: "#",
+      demoLink: "https://www.ally.com/",
       githubLink: "#",
       fullDescription:
         "Ally Banking System is a digital-first platform designed to simplify personal finance through seamless online experiences. Built with ASP.NET and Angular, it offers account management, secure transfers, savings tools, and customer support features. Hosted on Microsoft Azure with PostgreSQL for data management, and containerized using Docker for portability. It supports intelligent budgeting features like spending buckets and provides real-time balance tracking. The system is optimized for mobile use and ensures data protection with multi-factor authentication and encryption. Users benefit from fee-free banking, competitive APYs, and broad ATM access. It's a scalable, secure, and customer-focused solution tailored for modern banking needs."
