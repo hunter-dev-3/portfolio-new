@@ -34,6 +34,7 @@ export default function Navbar() {
     { name: "Home", href: "home" },
     { name: "About", href: "about" },
     { name: "Tech Stack", href: "tech-stack" },
+    { name: "Work Experience", href: "experience" },
     { name: "Projects", href: "projects" },
     { name: "Testimonials", href: "testimonials" },
     { name: "Contact", href: "contact" },

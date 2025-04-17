@@ -25,12 +25,12 @@ export default function Contact() {
     visible: { opacity: 1, y: 0 },
   }
 
-  const handleChange = (e) => {
+  const handleChange = (e:any) => {
     const { name, value } = e.target
     setFormData((prev) => ({ ...prev, [name]: value }))
   }
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e:any) => {
     e.preventDefault()
     setIsSubmitting(true)
 
