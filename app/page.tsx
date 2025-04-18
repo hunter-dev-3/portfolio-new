@@ -25,9 +25,9 @@ export default function Home() {
         <Hero />
         <About />
         <TechStack />
+        <Experience />
         <Projects />
         <Education />
-        <Experience />
         <Testimonials />
         <Contact />
       </main>
