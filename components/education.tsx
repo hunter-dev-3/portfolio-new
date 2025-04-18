@@ -79,7 +79,7 @@ export default function Education() {
           <Badge variant="outline" className="mb-4">
             Education
           </Badge>
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Academic Background</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Education</h2>
           <div className="w-20 h-1 bg-primary mx-auto"></div>
         </motion.div>
 
