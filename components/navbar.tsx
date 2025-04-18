@@ -33,8 +33,8 @@ export default function Navbar() {
   const navLinks = [
     { name: "Home", href: "home", icon: <Home className="h-[18px] w-[18px]" /> },
     { name: "Skills", href: "tech-stack", icon: <Code className="h-[18px] w-[18px]" /> },
-    { name: "Experience", href: "experience", icon: <Briefcase className="h-[18px] w-[18px]" /> },
     { name: "Projects", href: "projects", icon: <Code className="h-[18px] w-[18px] rotate-90" /> },
+    { name: "Experience", href: "experience", icon: <Briefcase className="h-[18px] w-[18px]" /> },
     { name: "Education", href: "education", icon: <GraduationCap className="h-[18px] w-[18px]" /> },
     { name: "Testimonials", href: "testimonials", icon: <Book className="h-[18px] w-[18px]" /> },
     { name: "Contact", href: "contact", icon: <Send className="h-[18px] w-[18px]" /> },
