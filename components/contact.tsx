@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -19,6 +19,13 @@ export default function Contact() {
     message: "",
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
+  const [hydrated, setHydrated] = useState(false);
+  
+  useEffect(() => {
+    setHydrated(true);
+  }, []);
+
+  if (!hydrated) return null;
 
   const fadeIn = {
     hidden: { opacity: 0, y: 20 },
@@ -108,6 +115,7 @@ export default function Contact() {
                       <Input
                         id="name"
                         name="name"
+                        type="text"
                         placeholder="John Doe"
                         value={formData.name}
                         onChange={handleChange}
@@ -132,6 +140,7 @@ export default function Contact() {
                     <Input
                       id="subject"
                       name="subject"
+                      type="text"
                       placeholder="Project Inquiry"
                       value={formData.subject}
                       onChange={handleChange}
@@ -143,6 +152,7 @@ export default function Contact() {
                     <Textarea
                       id="message"
                       name="message"
+                      // type="text"
                       placeholder="I'd like to discuss a project..."
                       rows={6}
                       value={formData.message}

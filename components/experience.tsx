@@ -19,7 +19,7 @@ export default function Experience() {
   const experiences = [
     {
         id: 1,
-        company: "SKsoft",
+        company: "Zeta",
         position: "Senior Software Engineer",
         period: "Jul 2021 – Present",
         location: "Houston, TX",
@@ -36,25 +36,8 @@ export default function Experience() {
     },
     {
         id: 2,
-        company: "Medtronic",
-        position: "Full Stack Engineer",
-        period: "May 2019 – Jun 2021",
-        location: "Fridley, MN",
-        description:
-          "Contributed to the design and development of a full-featured healthcare platform supporting patient management, scheduling, and secure messaging. Handled both frontend and backend tasks, ensuring scalability and HIPAA-compliant architecture.",
-        achievements: [
-          "Developed modular frontend components in Angular to streamline clinical workflows",
-          "Built secure REST APIs using ASP.NET Core for patient records and appointment systems",
-          "Integrated EHR and telehealth services, reducing overhead by 60%",
-          "Improved backend performance and database query speed by implementing indexing and async operations",
-        ],
-        technologies: ["ASP.NET Core", "Angular", "SQL Server", "Entity Framework", "Docker", "Azure", "Jest"],
-        website: "https://www.medtronic.com/",
-    },
-    {
-        id: 3,
-        company: "Square",
-        position: "Software Engineer",
+        company: "Tesla",
+        position: "Senior Software Developer",
         period: "2017 – 2019",
         location: "Remote",
         description: "Contributed to the design and development of a scalable B2B SaaS platform, focusing on high performance, flexibility, and seamless integration with enterprise systems.",
@@ -71,9 +54,26 @@ export default function Experience() {
         website: "https://squareup.com/"
     },
     {
+        id: 3,
+        company: "Medtronic",
+        position: "Full Stack Developer",
+        period: "May 2019 – Jun 2021",
+        location: "Fridley, MN",
+        description:
+          "Contributed to the design and development of a full-featured healthcare platform supporting patient management, scheduling, and secure messaging. Handled both frontend and backend tasks, ensuring scalability and HIPAA-compliant architecture.",
+        achievements: [
+          "Developed modular frontend components in Angular to streamline clinical workflows",
+          "Built secure REST APIs using ASP.NET Core for patient records and appointment systems",
+          "Integrated EHR and telehealth services, reducing overhead by 60%",
+          "Improved backend performance and database query speed by implementing indexing and async operations",
+        ],
+        technologies: ["ASP.NET Core", "Angular", "SQL Server", "Entity Framework", "Docker", "Azure", "Jest"],
+        website: "https://www.medtronic.com/",
+    },
+    {
         id: 4,
-        company: "LendingClub",
-        position: ".NET Developer",
+        company: "Chewy ",
+        position: ".Net & Angular Developer",
         period: "Jan 2020 – Dec 2022",
         location: "Remote",
         description: "Contributed to the development of a fintech platform, focusing on secure financial transactions, user authentication, and data processing. Worked on both backend and frontend components to ensure high performance, scalability, and compliance with industry standards.",
