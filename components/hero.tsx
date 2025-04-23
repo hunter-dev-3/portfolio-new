@@ -45,8 +45,8 @@ export default function Hero() {
             className="relative z-10 p-10"
           >
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
-              Hi, I'm <span className="text-primary">Memory</span>
-              <span className="text-destructive">Leaked</span>
+              Hi, I'm <span className="text-primary">Omar</span>
+              <span className="text-destructive">Nasim</span>
             </h1>
             <h2 className="text-2xl md:text-3xl font-medium text-muted-foreground mb-6">
               <span className="text-foreground">{text}</span>
@@ -68,7 +68,7 @@ export default function Hero() {
 
             <div className="flex gap-4 mt-8 justify-center">
               <Button variant="ghost" size="icon" className="rounded-full" asChild>
-                <a href="https://github.com/hunter-dev-3" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/omarnasim2" target="_blank" rel="noopener noreferrer">
                   <Github className="h-5 w-5" />
                 </a>
               </Button>
@@ -95,7 +95,7 @@ export default function Hero() {
             <div className="absolute inset-4 bg-muted rounded-full overflow-hidden">
               <img
                 src="/placeholder.svg?height=400&width=400"
-                alt="MemoryLeaked"
+                alt="Omar Nasim"
                 className="w-full h-full object-cover"
               />
             </div>

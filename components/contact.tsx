@@ -62,8 +62,8 @@ export default function Contact() {
     {
       icon: <Mail className="h-6 w-6 text-primary" />,
       title: "Email",
-      value: "contact@memoryleaked.dev",
-      link: "mailto:contact@memoryleaked.dev",
+      value: "omarnasim25@gmail",
+      link: "mailto:omarnasim25@gmail.com",
     },
     {
       icon: <Phone className="h-6 w-6 text-primary" />,
@@ -74,7 +74,7 @@ export default function Contact() {
     {
       icon: <MapPin className="h-6 w-6 text-primary" />,
       title: "Location",
-      value: "Dallas, TX",
+      value: "Friendswood, TX",
       link: null,
     },
   ]
@@ -116,7 +116,7 @@ export default function Contact() {
                         id="name"
                         name="name"
                         type="text"
-                        placeholder="John Doe"
+                        placeholder="Omar Nasim"
                         value={formData.name}
                         onChange={handleChange}
                         required
@@ -128,7 +128,7 @@ export default function Contact() {
                         id="email"
                         name="email"
                         type="email"
-                        placeholder="john@example.com"
+                        placeholder="Omar@example.com"
                         value={formData.email}
                         onChange={handleChange}
                         required
@@ -211,7 +211,7 @@ export default function Contact() {
                       </a>
                     </Button> */}
                     <Button variant="outline" size="icon" className="rounded-full" asChild>
-                      <a href="https://github.com/hunter-dev-3" target="_blank" rel="noopener noreferrer">
+                      <a href="https://github.com/omarnasim2" target="_blank" rel="noopener noreferrer">
                         <Github className="h-5 w-5" />
                       </a>
                     </Button>

@@ -19,10 +19,10 @@ export default function Education() {
   const education = [
     {
       id: 1,
-      institution: "Holy Names University",
+      institution: "Medaille University",
       degree: "Master of Science in Computer Science",
-      period: "Sep 2015 - May 2017",
-      location: "Oakland, CA",
+      period: "Sep 2013 - May 2016",
+      location: "Buffalo, NY ",
       description:
         "Specialized in Artificial Intelligence and Machine Learning with a focus on neural network architectures and distributed systems. Graduated with honors and completed a thesis on optimizing deep learning models for resource-constrained environments.",
       achievements: [
@@ -42,9 +42,9 @@ export default function Education() {
     },
     {
       id: 2,
-      institution: "MacMurray College",
-      degree: "Bachelor of Science in Computer Science",
-      period: "Sep 2011 - May 2015",
+      institution: "Alliance University",
+      degree: "",
+      period: "Sep 2011 - May 2013",
       location: "Jacksonville, IL",
       description:
         "Completed a comprehensive computer science curriculum with a minor in Mathematics. Participated in multiple hackathons and coding competitions, consistently placing in the top percentiles.",

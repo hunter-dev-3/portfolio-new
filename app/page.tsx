@@ -12,8 +12,8 @@ import Experience from "@/components/experience"
 import Education from "@/components/education"
 
 export const metadata: Metadata = {
-  title: "MemoryLeaked | Portfolio",
-  description: "Professional portfolio of MemoryLeaked - Software Developer",
+  title: "Omar Nasim | Portfolio",
+  description: "Professional portfolio of Omar Nasim - Software Developer",
 }
 
 export default function Home() {

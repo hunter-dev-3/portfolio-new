@@ -21,8 +21,8 @@ export default function Experience() {
         id: 1,
         company: "Zeta",
         position: "Senior Software Engineer",
-        period: "Jul 2021 – Present",
-        location: "Houston, TX",
+        period: "Jun 2023 – Present",
+        location: "Floor, NY | Remote",
         description:
           "Spearheading full-stack development for a secure digital banking platform serving over 5 million users. Worked across backend services and modern frontend interfaces to deliver reliable and compliant financial tools.",
         achievements: [
@@ -32,14 +32,14 @@ export default function Experience() {
           "Optimized backend services and frontend components to improve app speed by 45%",
         ],
         technologies: ["C#", ".NET 6", "React", "TypeScript", "Kafka", "Redis", "SQL Server", "Docker", "Kubernetes"],
-        website: "https://sksoft.com/",
+        website: "https://zeta.com/",
     },
     {
         id: 2,
         company: "Tesla",
         position: "Senior Software Developer",
-        period: "2017 – 2019",
-        location: "Remote",
+        period: "Jun 2020 – Dec 2022",
+        location: "Austin, TX | Remote",
         description: "Contributed to the design and development of a scalable B2B SaaS platform, focusing on high performance, flexibility, and seamless integration with enterprise systems.",
         achievements: [
             "Developed and optimized frontend components using React for a smooth user experience",
@@ -51,14 +51,14 @@ export default function Experience() {
             "Collaborated closely with cross-functional teams in an Agile environment to meet project deadlines"
         ],
         technologies: ["React", ".NET", "TypeScript", "GraphQL", "AWS", "Docker", "Kubernetes", "PostgreSQL", "Redis", "Jest"],
-        website: "https://squareup.com/"
+        website: "https://tesla.com/"
     },
     {
         id: 3,
         company: "Medtronic",
         position: "Full Stack Developer",
-        period: "May 2019 – Jun 2021",
-        location: "Fridley, MN",
+        period: "Jul 2018 – may 2020",
+        location: "West Hills, CA | Remote",
         description:
           "Contributed to the design and development of a full-featured healthcare platform supporting patient management, scheduling, and secure messaging. Handled both frontend and backend tasks, ensuring scalability and HIPAA-compliant architecture.",
         achievements: [
@@ -74,8 +74,8 @@ export default function Experience() {
         id: 4,
         company: "Chewy ",
         position: ".Net & Angular Developer",
-        period: "Jan 2020 – Dec 2022",
-        location: "Remote",
+        period: "Sep 2016 – May 2018",
+        location: "Plantation, Florida | Remote",
         description: "Contributed to the development of a fintech platform, focusing on secure financial transactions, user authentication, and data processing. Worked on both backend and frontend components to ensure high performance, scalability, and compliance with industry standards.",
         achievements: [
           "Developed secure and scalable REST APIs using ASP.NET Core for financial transactions and user management",
@@ -87,7 +87,7 @@ export default function Experience() {
           "Worked with cross-functional teams in Agile sprints to deliver features on time while adhering to security and compliance standards"
         ],
         technologies: ["ASP.NET Core", "SignalR", "PostgreSQL", "Docker", "Azure", "Jest", "C#"],
-        website: "https://www.lendingclub.com/"
+        website: "https://chewy.com/"
       }
   ]
 
